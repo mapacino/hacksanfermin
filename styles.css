@@ -1,0 +1,102 @@
+body{padding:10px;}
+#mappamplona {
+height: 400px;
+}
+#mapworld {
+height: 220px;
+    width: 100%;
+}
+
+
+
+.btn {
+background: #5C5863 ;
+color: #CFFFDD ;
+border-radius: 0px;
+border: none;
+padding:5px;
+height: 50px;
+font-family: 'Economica', sans-serif;
+}
+
+.btn:hover{
+background: black;
+color: white;
+}
+
+.subt{
+    color: lightgrey}
+
+.tit{
+    color:white; font-size:70px;
+}
+
+.titspan {font-size:40px; color: #CFFFDD}
+p,h2,h3,h1{
+font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+font-weight:100;
+}
+
+.cardo{
+font-family:  'Cardo', serif;}
+
+.negrita{
+font-weight:700;
+color: white;
+}
+
+.negrita2{
+font-weight:700;
+}
+
+.one {
+font-family: 'Fjalla One', sans-serif;
+font-size: 40px;
+font-weight:100;
+}
+
+.eco {
+font-family: 'Economica', sans-serif;}
+
+#titulo {
+background: url("avion.png");
+background-size: cover;
+background-position:right;
+    height: 250px;
+
+}
+
+/*#toolti2{
+    background: url("periodista.svg");
+    background-size: cover;
+    background-position:right;
+    background-color: #5C5863;
+}
+*/
+a{color: black;}
+
+.toolti{
+    background-size: cover;
+    background-position:right;
+    text-align: right;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 40px;
+    font-weight:100;
+    height:300px;
+    overflow-y: scroll;
+}
+
+#medios {
+    background-color:   ; 
+        color: black; 
+        font-size:50px;
+}
+
+#donde {
+    background-color: white  ; 
+    color: grey; 
+    font-size:50px;
+}
+
+path{
+    stroke: #FF1F4C ;}

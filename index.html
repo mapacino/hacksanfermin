@@ -1,0 +1,150 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="author" content="MAPACINO">
+    <title>MAPACINO | HackSanFermín ¿dónde está la prensa?</title>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <link href="bootstrap3/css/bootstrap.min.css" rel="stylesheet"/>
+    <script type='text/javascript' src="bootstrap3/js/jquery-2.0.3.min.js"></script>
+    <script type='text/javascript' src="bootstrap3/js/bootstrap.min.js"></script>
+
+    <!--script type="text/javascript" src="http://maps.stamen.com/js/tile.stamen.js"></script-->
+
+
+    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
+    <script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+
+    <script type="text/javascript" src="http://maps.stamen.com/js/tile.stamen.js?v1.2.4"></script>
+    <!--script type="text/javascript" src="js/tile.stamen.js"></script-->
+    <!--script src="OSMBuildings-Leaflet.js"></script-->
+    <!--script src="js/d3-3.4.8.min.js"></script-->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.4.8/d3.min.js"></script>
+
+    <!--fonts-->
+    <link href='http://fonts.googleapis.com/css?family=Cardo' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Fjalla+One' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Economica' rel='stylesheet' type='text/css'>
+
+
+    <link rel="stylesheet" href="styles.css" />
+
+<style>
+</style>
+
+</head>
+
+<body>
+
+    <div class="container" > <!--inicio container-->
+
+
+
+    <!--empieza cabecera-->
+        <div class="row" style="background: #080808">
+            <div class="col-md-3" id="titulo"></div>
+            <div class="col-md-3" id="subtitulo" >
+                <h2 class="subt">Con este proyecto nos gustaría rendir homenaje a la figura del <span class="negrita">reportero.</span>
+                </h2>
+            </div>
+
+
+            <div  class="col-sm-6" id="fermin" style="height: 250px">
+                <br>
+                <blockquote >
+                    <h1 class="tit">
+                            SAN FERMÍN<!--<img src="toroclaro.svg" align="right" width="35%">-->
+                    </h1><span class="titspan">LA PRENSA</span>
+                </blockquote>
+            </div>
+    </div><!--fin cabecera-->
+
+    <!--medios-->
+
+        <div id="medios" class="row" style="padding-left:30px">
+            <div class="col-sm-6">
+            <h1>Qué <span style="font-size: 60px" class="negrita2">medios</span> tienen presencia en <span style="font-size: 60px; color: black " class="negrita2"> San Fermín.</span></h1>
+            </div>
+            <div class="col-sm-6 one" id="fotobig" style="text-transform:uppercase; text-align: center; padding:20px; font-size:80px">
+            </div>
+        </div>
+    <!--fin medios-->
+
+        <!--webs-->
+        <div id="webs" style="height: 300px;" class="row" id="webs"></div>
+        <!--fin webs-->
+
+        <!--inicio cuepo-->
+    <div class="row" id="cuerpo" >
+        <div class="col-sm-7">
+            <div class="row" id="donde" style="padding-left:30px">
+                <h3><span class="negrita2" style="font-size: 40px">Dónde</span> está<span class="negrita2" style="font-size: 40px"> la prensa</span> <br>en <span class="negrita2" style="font-size: 60px; color: black ">San Fermín.</span></h3>
+            </div>
+
+            <div clas="row">
+                <div id="mappamplona" style="padding: 0"></div>
+            </div>
+
+            <div class="row" id="botones">
+                <center>
+                    <div class="btn-group btn-group-sm">
+                        <button type="button" class="btn btn-default"
+                                onclick="plotEvento('Chupinazo')">CHUPINAZO</button>
+
+                        <button type="button" class="btn btn-default"
+                                onclick="plotEvento('Encierro', 7)">Día 7</button>
+                        <button type="button" class="btn btn-default"
+                                onclick="plotEvento('Encierro', 8)">Día 8</button>
+                        <button type="button" class="btn btn-default"
+                                onclick="plotEvento('Encierro', 9)">Día 9</button>
+                        <button type="button" class="btn btn-default"
+                                onclick="plotEvento('Encierro', 10)">Día 10</button>
+                        <button type="button" class="btn btn-default"
+                                onclick="plotEvento('Encierro', 11)">Día 11</button>
+                        <button type="button" class="btn btn-default"
+                                onclick="plotEvento('Encierro', 12)">Día 12</button>
+                        <button type="button" class="btn btn-default"
+                                onclick="plotEvento('Encierro', 13)">Día 13</button>
+                        <button type="button" class="btn btn-default"
+                                onclick="plotEvento('Encierro', 14)">Día 14</button>
+                        <button type="button" class="btn btn-default"
+                                onclick="plotEvento('Pobre')">POBRE DE MI</button>
+                    </div>
+                </center>
+            </div>
+
+        </div>
+        <div class="col-sm-5 ">
+
+            <div class="row toolti" id="toolti" style="padding:20; text-align:right">
+                <h1>INTERACTÚE CON <br>EL MAPA PARA<br> VER DETALLES</h1>
+            </div>
+            <div clas="row">
+                <div id="mapworld" ></div>
+            </div>
+
+
+
+
+            </div><!--fin col-5-->
+            </div><!--fin row cuerpo-->
+
+
+
+
+
+
+
+
+
+</div> <!-- container -->
+<div class="footer"></div>
+
+<script type="text/javascript" src="maps-test.js"></script>
+<script type="text/javascript" src="perpos.js"></script>
+<script type="text/javascript" src="maps-iskra.js"></script>
+
+</html>

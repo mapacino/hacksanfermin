@@ -1,0 +1,46 @@
+grupo,tipo,lon,lat,address
+encierro,line,-1.64583,42.819923,Corrales
+encierro,line,-1.646055,42.819853,"Calle de Santo Domingo, 1"
+encierro,line,-1.6457994,42.819225,"Calle de Santo Domingo, 43"
+encierro,line,-1.6448136,42.8186036,"Calle de Santo Domingo, 19"
+encierro,line,-1.6444136,42.8183036,Calle de Santo Domingo
+encierro,line,-1.6442136,42.8182036,Calle de Santo Domingo
+encierro,line,-1.6437543,42.8182462,"Calle Mercaderes, 2"
+encierro,line,-1.643035,42.8185383,"Calle Mercaderes, 21"
+encierro,line,-1.6428924,42.8183948,"Calle Estafeta, 1"
+encierro,line,-1.6421566,42.8174851,"Calle Estafeta, 42"
+encierro,line,-1.641183,42.8161767,"Calle Estafeta, 87"
+encierro,line,-1.6411141,42.8159312,"Calle Cortes de Navarra, 1"
+encierro,line,-1.6411041,42.8159212,
+encierro,line,-1.639339,42.815837,Plaza de Toros
+Ayuntamiento,poligono,-1.644374,42.81843,
+Ayuntamiento,poligono,-1.644232,42.818327,
+Ayuntamiento,poligono,-1.644044,42.81845,
+Ayuntamiento,poligono,-1.644149,42.818554,
+Plaza Consistorial,poligono,-1.64426,42.818329,
+Plaza Consistorial,poligono,-1.644015,42.818166,
+Plaza Consistorial,poligono,-1.643786,42.817949,
+Plaza Consistorial,poligono,-1.643658,42.818039,
+Plaza Consistorial,poligono,-1.643888,42.81821,
+Plaza Consistorial,poligono,-1.64381,42.818258,
+Plaza Consistorial,poligono,-1.644049,42.818443,
+Casa seminario,poligono,-1.644589,42.818359,"Calle San Saturnino, 12"
+Casa seminario,poligono,-1.644468,42.818115,"Calle San Saturnino, 2"
+Casa seminario,poligono,-1.644365,42.818153,
+Casa seminario,poligono,-1.644357,42.818218,
+vallado1,poligono,-1.644053,42.818363,
+vallado1,poligono,-1.643799,42.81841,
+vallado1,poligono,-1.643728,42.818312,
+vallado1,poligono,-1.643973,42.81828,
+vallado2,poligono,-1.642931,42.818381,
+vallado2,poligono,-1.643079,42.818546,
+vallado2,poligono,-1.642937,42.818618,
+vallado2,poligono,-1.642816,42.818401,
+vallado3,poligono,-1.641065,42.815856,
+vallado3,poligono,-1.640972,42.816013,
+vallado3,poligono,-1.640586,42.816007,
+vallado3,poligono,-1.640497,42.815806,
+periodistas1,punto,-1.644022,42.818371,
+periodistas2,punto,-1.642962,42.818506,
+periodistas3,punto,-1.640902,42.815789,
+corredor,punto,-1.641881,42.817133,
